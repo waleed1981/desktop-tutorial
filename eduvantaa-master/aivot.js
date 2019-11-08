@@ -25,8 +25,9 @@ function yhteystietoFunktio() {
     var x = document.getElementById("yhteystietolomake");
     var text = "";
     var i;
-    for (i = 1; i < x.length; i++) {
-      text += x.elements[i].value + "<br>";
+    for (i = x.length-1;i>= 0;i--) {
+      text +=  x.elements[i].name+": "+ x.elements[i].value + "<br>";
+   
     }
     document.getElementById("yhteystiedotTuloste").innerHTML = text;
   }
