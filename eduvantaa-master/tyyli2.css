@@ -77,6 +77,8 @@ a:visited{
 }
 .originalOtsikko3{
     text-align: center;
+    height: 500;
+    width: 600;
 }
 .alusta3{
     border: 3px dotted #cccccc;
@@ -97,4 +99,12 @@ a:visited{
 .kategoriat li{
     padding-bottom: 6px;
     border-bottom: dotted 1px #333333;
+    list-style-image: url('tähti');
+}
+ canvas{
+        color:black;
+        width:700px;
+        height:500px;
+        border:3px solid rgb(243, 9, 165);
+        background-color: rgb(125, 53, 241);
 }
