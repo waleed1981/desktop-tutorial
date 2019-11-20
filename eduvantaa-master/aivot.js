@@ -12,7 +12,7 @@ function laatikkoFunktio(boxNumber){
         // toiminnallisuus puuttuu!
     }
     if(boxNumber == 3){
-        document.getElementById("laatikko3").innerHTML = "<img src='irak.jpg'>";
+        document.getElementById("laatikko3").innerHTML = "<img src='tähti.jpg' height='100' width='100' >";
         document.getElementById("laatikko3").style.lineHeight = "50px";
         //toiminnallisuus puuttuu!
     }
@@ -22,13 +22,16 @@ function laatikkoFunktio(boxNumber){
     
 }
 function yhteystietoFunktio() {
+    
     var x = document.getElementById("yhteystietolomake");
     var text = "";
     var i;
-    for (i = x.length-1;i>= 0;i--) {
-      text +=  x.elements[i].name+": "+ x.elements[i].value + "<br>";
-   
-    }
+    //for (i = 1; i < x.length; i++) {
+    //  text += x.elements[i].value + "<br>";
+      for (i = x.length-1;i>=0; i--){
+        text += x.elements[i].name + " : " +x.elements[i].value +"<br>";
+      }
+    //}
     document.getElementById("yhteystiedotTuloste").innerHTML = text;
   }
   function diagrammiFunktio(){
@@ -38,12 +41,26 @@ function yhteystietoFunktio() {
     ctx.beginPath();
     
     // diagrammiin voidaan kirjoittaa numeroita haluttuihin kohtiin.
-    ctx.fillText("50", 0, 450);
+    ctx.fillText("10", 0, 200);
+    ctx.fillText("20", 40, 250);
+    ctx.fillText("30", 60, 200);
+    ctx.fillText("40", 80, 210);
+    ctx.fillText("50", 100, 250);
+    ctx.fillText("60", 120, 270);
+    ctx.fillText("70", 140, 290);
+    ctx.fillText("80", 300, 320);
+    ctx.fillText("90", 325, 300);
+
     
     // Alla olevalla koodilla voidaan piirtää viivaa diagrammiin.
     ctx.moveTo(40, 200);
     ctx.lineTo(60, 250);
     ctx.lineTo(80, 200);
     ctx.lineTo(100, 210);
+    ctx.lineTo(120, 250);
+    ctx.lineTo(140, 270);
+    ctx.lineTo(300, 290);
+    ctx.lineTo(325, 320);
     ctx.stroke();
     }
+    
