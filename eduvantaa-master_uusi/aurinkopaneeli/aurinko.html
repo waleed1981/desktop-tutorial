@@ -1,0 +1,28 @@
+<html>
+  <head>
+        <title>
+        </title>
+    <script src="jquery.js"></script>
+
+       <script>
+            function haeTiedostosta(){
+               $.ajax({
+                   type: "GET",
+                   url: "http://localhost:3000/arvot",
+                   cache: false,
+                   success: function(data){
+               $("#testi").html(data);
+              },
+             error: function(XMLHttpRequest, textStatus, errorThrown){
+           console.log("error");
+          }
+        });
+       }
+    </script>
+ </head>
+ <body>
+     <button onclick="haeTiedostosta()">Hae</button>
+     <p id="testi">
+     </p>
+ </body>
+</html>
