@@ -1,0 +1,31 @@
+Keksi esimerkkejä millaisia tietoa tallentavia ja tarjoavia järjestelmiä olet itse käyttänyt. Minkälaista tietoa kukin järjestelmä sinusta tallensi?
+   . one drive
+   . gmail
+   . google drive
+  .  outlook
+_____________________________________________________________
+Katso seuraava video ja pohdi, minkälaista tietoa sovelluksen täytyy tallentaa toimiakseen. Entä miten kauppa voisi asiakkaistaan tallennettua tietoa hyödyntää.
+
+  .IQ lukee : eli tutustu tuatet  ja valinta esimerkki tuote.
+____________________________________________________________
+  .viva kodi : eli kun sinä valinta tuote sitten sinä tiedä paljonko hinta.
+____________________________________________________________
+Tietovaraston tietoturva: 
+    joka suojaa tietoa siihen kohdistuvilta uhilta tai esteeltä, 
+    joka estää sen hyökkäyksen tarjoamalla tarvittavat välineet ja välineet tietojen suojaamiseksi sisäisiltä tai ulkoisilta riskeiltä. Standardit ja toimenpiteet,
+    jotka on toteutettu estämään tiedon pääsy erityistarpeita omaaviin ihmisiin
+________________________________________________________________
+Tietovarasto suorituskyky : 
+    Operatiivinen tietokanta tarjoaa oikean tietokannan vaihtoehdoilla käyttöönotolle paikallisessa ja pilvikäyttöympäristössä, 
+    edistykselliset tietojen pakkausominaisuudet teollisuudessa, hybridi-työkuormien vankka suorituskyky, 
+    nykyaikainen tietojen luottamuksellisuus,
+    kyky ja skaalautuvuus ilman uudelleensuunnittelua.
+_______________________________________________________________
+Tietovaraston eheys : 
+    Varmuuskopioi tietosi automaattisesti ja ota käyttöön kaikki tietoturvapäivitykset, mukaan lukien tietojen salaus alusta loppuun, kun järjestelmä on käynnissä. Lisäksi kaikkia pääsyjä valvotaan,
+    seurataan ja toimitaan automaattisesti sen varmistamiseksi, että sisäiset ja ulkoiset tunkeilijat ovat estetty pääsemästä tietoihisi. Varmistaa syvällisen, monikerroksisen suojan sekä sisäisiltä että ulkoisilta haavoittuvuuksilta ja hyökkäyksiltä, ??jotka ovat käytettävissä tietosi turvallisuudessa
+    Automaattiset korjaustiedostot ja varmuuskopiointisovellus antavat sinun pitää tietosi turvassa ja poistaa virheille altista manuaalisen käsittelyn, jolloin tiedot ovat turvassa sattumanvaraisesti.
+________________________________________________________________
+Tietovaraston pysyvyys :
+    Palauta automaattisesti kaikista seisokkeista, mukaan lukien järjestelmävirheet, inhimilliset virheet ja ylläpito, ja varmista, että kriittisillä sovelluksillasi on aina käynnissä olevat tehtävät
+    Se käyttää tekoälyä tarjoamaan ennennäkemättömän luotettavuuden ja suorituskyvyn tietovarastojen käyttöönotolle.
