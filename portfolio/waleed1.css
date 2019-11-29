@@ -1,0 +1,54 @@
+h1 {
+    color :rgb(227, 247, 156);
+    font-size: 140% ;
+    right : 50% ;
+}
+.center {
+         
+         border : 1px solid ;
+         color: rgb(121, 116, 87);
+         height: 160px;
+         width: 100%;
+         background-color: rgb(194, 5, 5);
+}
+.center1 {
+    border : 1px solid ;
+    color: black ;
+    height: 150px ;
+    width: 100% ;
+    background-color: rgb(253, 253, 249) ;
+}
+.center2 {
+        float: right;
+        border : 1px solid ;
+        color: black ;
+        height: 160 px ;
+        width: 100% ;
+        background-color: rgb(13, 13, 14) ;
+}
+.center3 {
+    border : 1px solid ;
+    color: black ;
+    height: 300px ;
+    width: 100% ;
+    background-color: rgb(13, 13, 14) ;    
+}
+.alusta3{
+    border: 3px dotted #cccccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+.kategoriat{
+    border:1px #df5858 solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.originalOtsikko3{
+    text-align: center;
+    height: 500;
+    width: 600;
+}
+.muutosNappi:hover{
+    background-color: rgb(107, 99, 141);
+    text-decoration: underline;
+}
